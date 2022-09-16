@@ -17,6 +17,6 @@
         "replace": "${1}"
     },
     "autoupdate": {
-        "url": "https://go.microsoft.com/fwlink/?linkid=$match2.exe"
+        "url": "https://go.microsoft.com/fwlink/?linkid=$match2"
     }
 }
