@@ -3,7 +3,7 @@
     "description": "Microsoft Windows 10 Software Developement Kit",
     "homepage": "https://developer.microsoft.com/en-us/windows/downloads/sdk-archive",
     "license": "https://www.microsoft.com/en-ca/legal/terms-of-use",
-    "url": "https://go.microsoft.com/fwlink/?linkid=2164145",
+    "url": "\"https://go.microsoft.com/fwlink/?linkid=2164145\"",
     "hash": "bc73435923977350ac92420a06c0d5a7db3a966ce66393c3218accc6b1b4076d",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\winsdksetup.exe\" -ArgumentList \"/installpath $dir\\sdk\\ /quiet /norestart /ceip off /features OptionId.WindowsPerformanceToolkit OptionId.WindowsDesktopDebuggers OptionId.AvrfExternal OptionId.NetFxSoftwareDevelopmentKit OptionId.WindowsSoftwareLogoToolkit OptionId.IpOverUsb OptionId.MSIInstallTools OptionId.SigningTools OptionId.UWPManaged OptionId.UWPCPP OptionId.UWPLocalized OptionId.DesktopCPPx86 OptionId.DesktopCPPx64 OptionId.DesktopCPParm OptionId.DesktopCPParm64\" -Wait"
@@ -17,6 +17,6 @@
         "replace": "${1}"
     },
     "autoupdate": {
-        "url": "https://go.microsoft.com/fwlink/?linkid=$match2"
+        "url": "\"https://go.microsoft.com/fwlink/?linkid=$match2\""
     }
 }
