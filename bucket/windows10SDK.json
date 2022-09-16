@@ -26,9 +26,7 @@
             "OptionId.DesktopCPPx86",
             "OptionId.DesktopCPPx64",
             "OptionId.DesktopCPParm",
-            "OptionId.DesktopCPParm64",
-            "/installpath",
-            "$dir\\sdk\\"
+            "OptionId.DesktopCPParm64"
             ]
     },
     "uninstaller": {
