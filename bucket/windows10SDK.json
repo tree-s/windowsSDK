@@ -13,7 +13,7 @@
     },
     "checkver": {
         "url": "https://developer.microsoft.com/en-us/windows/downloads/sdk-archive",
-        "regex": "\"Windows 10 SDK version[^(]*\\(([^\\)]+)[^?]*[^=]*=([0-9]*)\"",
+        "regex": "\"Windows 10 SDK version[^(]*\\(([^\\)]+)[^?]*(\\?linkid=[0-9]*)\"",
         "replace": "${1}"
     },
     "autoupdate": {
