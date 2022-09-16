@@ -32,6 +32,7 @@
             ]
     },
     "uninstaller": {
+        "file": "winsdksetup.exe",
         "args": [
             "/uninstall",
             "/quiet",
