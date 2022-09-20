@@ -1,10 +1,10 @@
 {
     "version": "10.0.20348.0",
-    "description": "Microsoft Windows 10 Software Developement Kit",
+    "description": "Microsoft Windows 11 Software Developement Kit",
     "homepage": "https://developer.microsoft.com/en-us/windows/downloads/sdk-archive",
     "license": "https://www.microsoft.com/en-ca/legal/terms-of-use",
-    "url": "",
-    "hash": "",
+    "url": "https://download.microsoft.com/download/f/6/7/f673df4b-4df9-4e1c-b6ce-2e6b4236c802/windowssdk/winsdksetup.exe",
+    "hash": "6c489de4a7ff206bdb15e97fedc397aa01da570bf83c3049aaf755d9376237c2",
     "installer": {
         "args": [
             "/quiet",
