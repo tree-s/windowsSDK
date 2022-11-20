@@ -41,7 +41,7 @@
     },
     "checkver": {
         "url": "https://developer.microsoft.com/en-us/windows/downloads/sdk-archive",
-        "regex": "\"Windows SDK for Windows 11[^(]*\\(([^\\)]+)[^?]*[^=]*=([0-9]*)\"",
+        "regex": "Windows SDK for Windows 11[^(]*\\(([^\\)]+)[^?]*[^=]*=([0-9]*)",
         "replace": "${1}"
     },
     "autoupdate": {
