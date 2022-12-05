@@ -1,4 +1,4 @@
-# Scoop Bucket Template
+# Scoop Bucket Windows SDK
 
 [![Tests](https://github.com/tree-s/windowsSDK/actions/workflows/ci.yml/badge.svg)](https://github.com/tree-s/windowsSDK/actions/workflows/ci.yml) [![Excavator](https://github.com/tree-s/windowsSDK/actions/workflows/excavator.yml/badge.svg)](https://github.com/tree-s/windowsSDK/actions/workflows/excavator.yml)
 
